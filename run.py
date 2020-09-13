@@ -114,7 +114,7 @@ def run():
 		if(len(result)!=0):
 			for ele in result:
 				matchId = ele['category_id']
-				ele['category_id'] = reverse_id_mapping[matchId]
+				ele['category_id'] = reverse_id_mapping[str(matchId)]
 				results.append(ele)    
 			aicrowd_helpers.execution_progress({
 				"image_ids" : [fname]
