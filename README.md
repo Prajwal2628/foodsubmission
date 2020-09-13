@@ -23,11 +23,9 @@ This will be the ideal directory structure that you can follow. The Detectron2 s
 |   |-- train/
 |   |   |-- images (has all the images for training)
 |   |   |__ annotation.json : Annotation of the data in MS COCO format
-|   |   |__ annotation-small.json : Smaller version of the previous dataset
 |   |-- val/
 |   |   |-- images (has all the images for training)
 |   |   |__ annotation.json : Annotation of the data in MS COCO format
-|   |   |__ annotation-small.json : Smaller version of the previous dataset
 |   |-- train.zip (zip that you downloaded)
 |   |-- val.zip (zip that you downloaded)
 
@@ -39,7 +37,7 @@ This challenge is a codebase submission challenge. Participants are supposed to 
 
 To submit to the challenge you'll need to ensure you've set up an appropriate repository structure, create a private git repository at https://gitlab.aicrowd.com with the contents of your submission, and push a git tag corresponding to the version of your repository you'd like to submit.
 
-The Detectron2 starter kit notebook has all the information that you need in making a submissionn if you are using detectron2 to build your model.
+The Detectron2 starter kit notebook has all the information that you need in making a submission if you are using detectron2 to build your model.
 
 ## Repository Structure
 We have created this sample submission repository which you can use as reference. We will be cloning this repository and make changes to it and then make a submission. (Refer to the notebook)
